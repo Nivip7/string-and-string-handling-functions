@@ -1,0 +1,13 @@
+s1=input("Enter the first string")
+s2=input("Enter the second string")
+if len(s1)==len(s2) and s2 in (s1+s1):
+   print(" rotation ")
+else:
+   print("  not a rotation ")
+string=input("ENTER A STRING")
+length=len(string)
+print("all substrings....")
+for i in range(length):
+    for j in range(i,length):
+        substring=string[i:j+1]
+        print(substring)
